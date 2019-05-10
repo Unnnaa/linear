@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                    android:id="@+id/firstLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.6"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Java"
+                       />
+
+                <EditText
+                        android:id="@+id/edittextJava"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.4"
+                        android:hint=""
+                        android:imeOptions="actionNext"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                       />
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/secondLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.6"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Network"
+                       />
+
+                <EditText
+                        android:id="@+id/edittextNetwork"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.4"
+                        android:imeOptions="actionNext"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                  />
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/thirdLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.6"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Database"
+                        />
+
+                <EditText
+                        android:id="@+id/edittextDatabase"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.4"
+                        android:imeOptions="actionNext"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                         />
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/fourthLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                <Button
+                        android:text="TOTAL"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.6"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp" android:layout_width="2dp" android:id="@+id/buttonTotal"/>
+
+                <EditText
+                        android:id="@+id/edittextTotal"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.4"
+                        android:imeOptions="actionNext"
+                        android:paddingLeft="10dp"
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/fifthLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                <Button
+                        android:text="AVE"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:gravity="center_vertical" android:id="@+id/buttonAve"/>
+
+
+                <EditText
+                        android:id="@+id/edittextAve"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.4"
+                        android:paddingLeft="10dp"
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/sixthLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.6"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Grade"
+                />
+
+                <EditText
+                        android:id="@+id/grade"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.4"
+                        android:paddingLeft="10dp"
+
+                />
+            </LinearLayout>
+
+
+</LinearLayout>
